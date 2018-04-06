@@ -88,8 +88,9 @@ main {
 	display: block;
 }
 .accordionContainer {
-	padding: 3% 10%;
-	margin: 0 auto;
+	max-width: 60%;
+	margin: 3% auto;
+	box-shadow: 0 0 0px 4px rgba(0,0,0,0.05);
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
@@ -136,7 +137,7 @@ main {
 .empty-msg {
 	text-align: center;
 }
-label,input {
+label,input, .error {
 	display: block;
 	text-align: left;
 	margin: 0 auto;
@@ -151,4 +152,22 @@ label {
 }
 input {
 	margin: 5px auto 10px;
+	font-size:1.5rem;
+	border-bottom: solid 1px #b5b5b5;
+}
+input[type="submit"] {
+	border:solid 1px #b5b5b5;
+	padding:5px 10px;
+	margin: 40px auto 20px;
+}
+.error {
+	margin-top: -10px;
+    font-size: 0.7rem;
+    margin-bottom: 5px;
+    color: #E3654B;
+    opacity: 0;
+    min-height: 21px;
+}
+.visible {
+	opacity:1;
 }
