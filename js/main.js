@@ -114,8 +114,9 @@ formQualityControl();
 
 function addNewContact(name,phone){
     localStorage.setItem(name, phone);
+    showNewContact(name);
 };
 function showNewContact(key){
-	
+	/* insertar cosas aqui */
 	localStorage.getItem(key);
 }

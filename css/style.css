@@ -201,3 +201,9 @@ input[type="submit"]:active {
 .wrong{
 	border-bottom:solid 2px #E3654B;
 }
+.divOfBros {
+	display: none;
+}
+.infoModal {
+	display: none;
+}
